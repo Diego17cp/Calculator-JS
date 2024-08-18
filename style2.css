@@ -1,0 +1,36 @@
+/*Programador: Diego Alberto Castro Pastor*/
+.calculadora{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(23, 65, 155);
+    width: 350px;
+    height: 550px;
+    border-radius: 25px ;
+}
+.calculadora td button{
+    display: block;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    border-radius: 30px;
+    background: linear-gradient(to bottom, rgb(123, 153, 235) 5%, rgb(22, 113, 250) 100%);
+}
+.calculadora td button:hover{
+    background: linear-gradient(to bottom, rgb(127, 171, 253) 5%, rgb(45, 83, 117) 100%);
+    background-color: rgb(31, 31, 128);
+}
+#resultado{
+    display: block;
+    text-align: right;
+    font-size: 80px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 130px;
+    line-height: 100px;
+    background: linear-gradient(to bottom, rgb(253, 223, 140) 5%, rgba(185, 145, 14, 0.938) 100%);
+    border-radius: 25px;
+    border: solid 3px rgb(223, 186, 67);
+    /*overflow-y: scroll;*/
+    font-family: "Orbitron", sans-serif;
+}
